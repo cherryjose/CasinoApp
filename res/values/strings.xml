@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Casino Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="backgroundcolor">#D4DF38</color>
+
+    <string name="title_activity_all_games">AllGames</string>
+    <string name="PLAY">PLAY</string>
+    <string name="PAUSE">PAUSE</string>
+    <string name="FORWARD">FORWARD</string>
+    <string name="REWIND">REWIND</string>
+    <string name="songname">SONGNAME</string>
+
+    <color name="bluetext">#0000ff</color>
+
+    <string name="copyright">Copyright@2015 Team04_CentennialCollege</string>
+    <string name="x_move">X Move</string>
+    <string name="o_move">O Move</string>
+    <string name="empty"></string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="makeMove">makeMove</string>
+
+    <color name="background">#ffd2e8</color>
+    <color name="button">#0F4DA8</color>
+
+    <string name="normal_activity_label">Tic Tac Toe - Normal Mode</string>
+
+    <color name="greyb">#d3d3d3</color>
+
+    <string name="signin">\t Sign In ➜ \t  </string>
+    <string name="signup">\t New user register here ! ➜ \t  </string>
+    <string name="createAccount">\t Create Account ➜ \t  </string>
+    <string name="takePic">\t Take Picture to Sign Up ➜ \t  </string>
+    <string name="title_activity_view_result">ViewResult</string>
+
+</resources>

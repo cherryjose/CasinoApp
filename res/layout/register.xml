@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor" >
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/buttonSignIN"
+        android:layout_toLeftOf="@+id/buttonSignIN"
+        android:layout_weight="0.29" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/snippy" />
+
+    <TextView
+        android:id="@+id/textViewlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="30dp"
+        android:text="REGISTER HERE TO PLAY !"
+        android:textColor="#990000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextUserName"
+        android:layout_below="@+id/editTextUserName"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewlbl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="#42454a"
+        android:text="@string/takePic"
+        android:textColor="#fff" />
+    
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignLeft="@+id/textViewlbl"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textViewlbl"
+        android:layout_marginBottom="49dp"
+        android:background="#990000" />
+        
+        <TextView
+	    android:id="@+id/TextView01"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/view1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="17dp"
+	    android:text="@string/copyright"
+	    android:textColor="#990000"
+	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonCreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextConfirmPassword"
+            android:layout_centerHorizontal="true"
+            android:background="#42454a"
+            android:text="@string/createAccount"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint="Username" />
+
+</RelativeLayout>
